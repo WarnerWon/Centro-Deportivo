@@ -1,0 +1,54 @@
+{
+    "materiales": [
+        {
+            "py/object": "Class_Material.Material",
+            "id":1,
+            "nombre":"Balon-basket"
+        },
+        {
+            "py/object": "Class_Material.Material",
+            "id":2,
+            "nombre":"Vallas"
+        },
+        {
+            "py/object": "Class_Material.Material",
+            "id":3,
+            "nombre":"Porterias"
+        },
+        {
+            "py/object": "Class_Material.Material",
+            "id":4,
+            "nombre":"Rodilleras"
+        },
+        {
+            "py/object": "Class_Material.Material",
+            "id":5,
+            "nombre":"Pesas"
+        },
+        {
+            "py/object": "Class_Material.Material",
+            "id":6,
+            "nombre":"Conos"
+        },
+        {
+            "py/object": "Class_Material.Material",
+            "id":7,
+            "nombre":"Aros"
+        },
+        {
+            "py/object": "Class_Material.Material",
+            "id":8,
+            "nombre":"Platos"
+        },
+        {
+            "py/object": "Class_Material.Material",
+            "id":9,
+            "nombre":"Balon-Futbol"
+        },
+        {
+            "py/object": "Class_Material.Material",
+            "id":10,
+            "nombre":"Balon-Americano"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+[
+    {
+        "py/object": "Class_persona.Persona",
+        "nombre": "Raul",
+        "edad": "22",
+        "puesto": "Limpieza",
+        "materiales": [
+            {
+                "py/object": "Class_Material.Material",
+                "id": 1,
+                "nombre": "Balon-basket",
+                "fechaPedido": "2020-12-24",
+                "fechaEntregado": "2020-12-29"
+            },
+            {
+                "py/object": "Class_Material.Material",
+                "id": 10,
+                "nombre": "Balon-Americano",
+                "fechaPedido": "2021-01-01",
+                "fechaEntregado": "2021-01-05"
+            }
+        ]
+    },
+    {
+        "py/object": "Class_persona.Persona",
+        "nombre": "Diego",
+        "edad": "35",
+        "puesto": "Maestro",
+        "materiales": [
+            {
+                "py/object": "Class_Material.Material",
+                "id": 4,
+                "nombre": "Rodilleras",
+                "fechaPedido": "2020-12-22",
+                "fechaEntregado": "2020-12-26"
+            },
+            {
+                "py/object": "Class_Material.Material",
+                "id": 7,
+                "nombre": "Aros",
+                "fechaPedido": "2020-11-15",
+                "fechaEntregado": "2020-12-15"
+            }
+        ]
+    },
+    {
+        "py/object": "Class_persona.Persona",
+        "nombre": "Manuel",
+        "edad": "19",
+        "puesto": "Estudiante",
+        "materiales": [
+            {
+                "py/object": "Class_Material.Material",
+                "id": 9,
+                "nombre": "Balon-Futbol",
+                "fechaPedido": "2021-01-10",
+                "fechaEntregado": "2021-01-15"
+            },
+            {
+                "py/object": "Class_Material.Material",
+                "id": 5,
+                "nombre": "Pesas",
+                "fechaPedido": "2021-01-15",
+                "fechaEntregado": null
+            }
+        ]
+    }
+]

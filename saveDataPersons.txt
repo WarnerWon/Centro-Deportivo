@@ -1,0 +1,3 @@
+Persona("Raul",22,"Limpieza",[mLista[0],mLista[9]])
+Persona("Diego",35,"Maestro",[mLista[3],mLista[6]])
+Persona("Manuel",19,"Estudiante",[mLista[8],mLista[4]])
