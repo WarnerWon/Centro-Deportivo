@@ -1,5 +1,3 @@
-#Toda la funcionalidad de Material es en base al tiempo
-#por eso inclui la libreria datetime para ello
 import datetime
 
 class Material(object):
@@ -10,15 +8,11 @@ class Material(object):
         self.fechaPedido = None
         self.fechaEntregado = None
 
-    #Asigna la fecha actual, dando a entender 
-    #que se pidio en esa fecha
     def pedir(self):
 
         self.fechaPedido = datetime.datetime.now()
 
         pass
-    #Asigna la fecha actual, dando a entender 
-    #que se devolvio en esa fecha
 
     def entregar(self):
         
