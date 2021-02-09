@@ -12,20 +12,20 @@ class Mysql():
     )
     self.mycursor= self.mydb.cursor()
 
-  def insert(self,table="",values={}):
+  def insert(self,table="",data={}):
 
-    sql = self.sentenceGenerator("INSERT",table,values.keys())
+    sql = self.sentenceGenerator("INSERT",table,data.keys())
     
-    myInput = self.valuesGenerator(values.values())
+    myInput = self.valuesGenerator(data.values())
 
     self.mycursor.execute(sql,myInput)
 
     self.mydb.commit()
 
-  def select(self,table="",selection="*",whereField="",operator="",filtro=""):
+  def select(self,table="",selection="*",whereField="",operator="",value=""):
     sql = "SELECT " + selection + " FROM " + table
     if (whereField!=None):
-      sql =+ " WHERE " + whereField + " " + operator + " " + filtro
+      sql =+ " WHERE " + whereField + " " + operator + " " + value
   
   def update(self,table="",field="", value="", wherefield="", operator="=", whereValue=""):
 
