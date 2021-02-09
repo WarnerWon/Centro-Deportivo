@@ -15,7 +15,7 @@ class BD():
     else:
       self.m1mongo.insert(collection=table_collection,data=values)
   
-  def select(self,table_collection="",data={},):
+  def select(self,table_collection="",data={}):
     if (self.mydb=="mysql"):
       if 'whereField' in data:
         self.m1sql.select(table=table_collection,
@@ -34,8 +34,8 @@ class BD():
     else:
       self.m1mongo.select(collection=table_collection,query=data)
 
-  def update(table_collection="",query={},newValue={}):
-    if (self.mydb="mysql"):
+  def update(self, table_collection="",query={},newValue={}):
+    if (self.mydb == "mysql"):
       self.m1sql.update(table=table_collection,
         field=newValue.get('field'),
         value=newValue.get('value'),
@@ -45,5 +45,5 @@ class BD():
     else:
       self.m1mongo.update(collection=table_collection,query=query,newValue=newValue)
     
-  def delete(self,table_collection="",):
+  #def delete(self,table_collection="",):
       
